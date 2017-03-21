@@ -1,0 +1,66 @@
+body {
+	font-family: 'Lucida Grande', arial, sans-serif;
+	font-size: 15px;
+	background: #eee;	
+}
+
+fieldset {
+	margin: 5px;
+	padding: 10px;
+	border: 1px solid;
+	margin-bottom: 20px;	
+}
+
+fieldset legend {
+	padding: 5px;
+	background-color: #778899;
+	border: 1px solid;
+	width: 200px;
+	color: #eeeeee;
+}
+
+label, textarea, input {
+	margin: 5px;
+}
+
+textarea {
+	width: 98%;
+	height: 100px;
+}
+
+div.clear {
+	clear: both;
+}
+
+p {
+	margin: 5px;
+}
+
+#BliffoscopeCanvas {
+	margin-top: 20px;
+}
+
+#outputReport ul li {
+	display: block;
+	float: left;
+	width: 400px;
+	height: 50px;
+	text-align: center;
+	border: 1px solid;
+	margin-right: 5px;
+	margin-top: 5px;
+	padding: 5px;
+	vertical-align: middle;
+ 	line-height: 50px; 	
+}
+
+#outputReport {
+	margin-bottom: 10px;
+}
+
+div.imgPixel {
+	width: 5px;	
+	height: 5px;
+	margin: 0px;
+	float: left;
+}

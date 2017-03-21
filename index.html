@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title>Bliffoscope Data Analysis Problem</title>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="Bliffoscope.js"></script>
+	</head>
+	<body>
+		<h1>Bliffoscope Data Analysis Problem</h1>
+		<fieldset id="inputBox" class="input">
+			<legend>Input Data</legend>
+			<label for="inputImage">Please, paste the TestData in field below and click on "Search targets" button</label>
+			<textarea name="inputImage" id="inputImage"></textarea>
+			<label for="outputType">Draw image results using:</label>
+			<select name="outputType" id="outputType">
+				<option value="canvasDraw">Canvas</option>
+				<option value="divDraw">HTML DIV</option>
+				<option value="">-- No image --</option>				
+			</select>
+			<input type="button" value="Search targets" id="btnSearch">
+		</fieldset>
+		<fieldset id="outputBox" class="output" style="display: none;">
+			<legend>Output Data</legend>
+			<div id="outputReport">
+				<p>Total target(s) found(s): <span id="targetsFound"></span></p>
+				<p>Total execution time: <span id="executionTime"></span> seconds</p>
+				<ul id="targetsFoundList"></ul>
+				<div class="clear"></div>
+			</div>
+			<div id="drawElement"></div>
+		</fieldset>
+	</body>
+</html>
